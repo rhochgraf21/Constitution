@@ -4,3 +4,5 @@
 *.synctex.gz
 *.py
 *.toc
+.vs/VSWorkspaceState.json
+.vs/Constition Repo/v17/.wsuo
