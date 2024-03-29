@@ -64,6 +64,7 @@
 % Reference example:
 %Test reference \ref{House Objectives} House Objectives.
 
+% Fix House everywhere
 
 \begin{document}
 % Title
@@ -71,17 +72,69 @@
 
 \tableofcontents
 
-% ARTICLE I - INTRODUCTION
+% ARTICLE 1 - ABBREVIATIONS
+\article{Abbreviations and Definitions}
+
+\subsection{Abbreviations}
+% Formatted as abbreviation | full term
+\begin{center}  
+\begin{tabular}{|l|r|}  
+\hline
+Chair & Chairperson
+\\ \hline
+CSH & Computer Science House
+\\ \hline
+E-Board & Executive Board
+\\ \hline
+Eval & Evaluation
+\\ \hline
+Financial & Financials
+\\ \hline
+History & House History
+\\ \hline
+IMPs & House Improvements
+\\ \hline
+Intro & Introductory
+\\ \hline
+Maintainer & Constitutional Maintainer
+\\ \hline
+OpComm & Operational Communications
+\\ \hline
+PR  & Public Relations
+\\ \hline
+R\&D & Research and Development
+\\ \hline
+ResLife & Residence Life
+\\ \hline
+RTP & Root Type Person
+\\ \hline
+Social & Socials
+\\ \hline
+\end{tabular}  
+\end{center} 
+
+\subsection{Definitions}
+
+% Formatted as term | definition
+\begin{center}  
+\begin{tabular}{|l|r|}  
+\hline
+Technical seminar & Seminar relating to computing or electronics, as approved by the Evals director
+\\ \hline
+\end{tabular}  
+\end{center} 
+
+% ARTICLE 2 - INTRODUCTION
 \article{Introduction}
 
 \asection{Name}
-The name of this Special Interest House is Computer Science House.
+The name of this Special Interest House is CSH.
 
 \asection{Derivation of Authority}
-The Computer Science House shall recognize that it receives its right to function as a Special Interest House from the Center for Campus Life and the Department of Residence Life.
+CSH shall recognize that it receives its right to function as a Special Interest House from the Center for Campus Life and the Department of ResLife.
 
 \asection{House Objectives}
-The objectives of Computer Science House are:
+The objectives of CSH are:
 \begin{enumerate}
 	\item To enhance the education experience of its members
 	\item To offer students educational programming with an emphasis in computers
@@ -89,250 +142,233 @@ The objectives of Computer Science House are:
 	\item To provide a friendly and comfortable living environment in the residence halls
 \end{enumerate}
 
-\article{Abbreviations and Definitions}
-Many of the commonly used abbreviations will be listed here, and the abbreviations will be used throughout the rest of the document.
-
-\begin{enumerate}
-	\item Chairperson - Chair
-	\item Evaluations - Evals
-	\item Research and Development - R\&D
-	\item House Improvements - IMPs
-	\item Operational Communications - OpComm
-	\item House History - History
-	\item Public Relations - PR
-	\item Socials - Social
-	\item Financials - Financial
-	\item Executive Board - E-Board
-	\item Root Type Person - RTP
-	\item Constitutional Maintainer - Maintainer
-	\item Introductory - Intro
-	\item Department of Residence Life - ResLife
-\end{enumerate}
-
-
-% ARTICLE II - CONSTITUTIONAL STRUCTURE
+% ARTICLE 3 - CONSTITUTIONAL STRUCTURE
 \article{Constitutional Structure}
 
 \asection{Constitution}
-The House Constitution is written and maintained by the House and defines the major aspects, goals, and governing structure of the house.
+The CSH Constitution is written and maintained by CSH and defines the major aspects, goals, and governing structure of CSH.
 
 \asection{Standard Operating Session}
-The Standard Operating Session for Computer Science House is during the Fall and Spring semesters.
-The Summer Sessions, Intersessions, Institute breaks, and all end of Semester Exam Weeks are considered non-standard operating sessions.
-Unless explicitly stated otherwise, the requirements and expectations defined in the constitution are for the Standard Operating Session.
+The Standard Operating Session for CSH is during the Fall and Spring semesters.
+The Summer Sessions, Intersessions, Institute breaks, and all end of Semester Exam Weeks are considered Non-Standard Operating Sessions.
+Unless explicitly stated otherwise, the requirements and expectations defined in the Constitution are for the Standard Operating Session.
 
-% ARTICLE IV - MEMBERSHIP
+% ARTICLE 4 - MEMBERSHIP
 \article{Membership}
-There are five major types of membership available to Computer Science House.
-Each carries different qualifications, expectations, and privileges.
-When describing the different memberships available, the following terms are used:
+There are five types of membership available to CSH.
+% when describing membership types TODO
+When describing membership types, the following terms are used:
 \begin{description}
-	\item[Qualifications:] What qualifications an applicant needs to apply
+	\item[Qualifications:] What criteria an applicant needs to be considered
 	\item[Selection:] The process by which an applicant gains membership
-	\item[Expectations:] The duties and responsibilities of House members
-	\item[Privileges:] The benefits offered to House members
+	\item[Expectations:] The duties and responsibilities associated with CSH membership
+	\item[Privileges:] The benefits offered to members
 	\item[Evaluations:] The process by which a member is reviewed and assessed
-	\item[Leave of Absence:] The process by which a member may leave House for a period of time
-	\item[Resignations:] The process by which a member terminates House membership
-	\item[Term:] The length of time the membership lasts
+	\item[Leave of Absence:] The process by which a member may leave CSH for a period of time
+	\item[Resignations:] The process by which a member terminates CSH membership
+	\item[Term:] The duration of the membership type
 \end{description}
 
-\asection{Introductory Membership}
+\asection{Intro Membership}
 
-\asubsection{Introductory Membership Qualifications}
+\asubsection{Intro Membership Qualifications}
 Intro Membership is open to all RIT students.
 
+% remove and move children up, keep title TODO
 \asubsection{Introductory Membership Selection}
+% Applicants notify the Evals Director of their interest in membership by submitting an application. TODO
 Applicants notify the House of their interest in membership by submitting an application to the Evals Director.
 They must then undergo the selection process as defined in \ref{Selection Processes}.
 
 \asubsubsection{Selection Processes}
 \renewcommand{\theenumi}{\alph{enumi}} % For this section, we want items to use letters
-\hfill\break\hfill\break
-Most membership privileges do not initiate until successful completion of the introductory process.
-This means that until the member has passed the Introductory Evaluation, the member does NOT have the right to vote on House issues and does NOT count towards quorum.
-The member does, however, have the right to use Computer Science House's facilities.
-The member is not required to pay dues during the Introductory Process.
-\\* \\*
-No hazing shall occur at any time during the Selection Process in accordance with the New York State Hazing Laws.
-
-% Incoming RIT students is defined as students who have attended RIT for less than 1 full semester
 
 % Current RIT students is defined as students who have attended RIT for at least 1 full semester
 \asubsubsubsection{Selection Process for Current RIT Students}
 \begin{enumerate}
-	\item The applicant submits an application to the Evaluations Director for review.
-	\item The applicant participates in an informal interview with exactly three current Active, Alumni, or Honorary Members.
-	\item The application materials are then reviewed at an Evaluations meeting.
-	Then a simple majority vote, of attending members, is held on whether or not to accept the person as an Introductory Member.
+	\item The applicant submits an application to the Evals Director for review.
+	\item The applicant participates in an informal interview with three current Active, Alumni, or Honorary Members.
+	\item The application materials are reviewed at an Evals meeting.
+	      The applicant is accepted or rejected as an Intro member by a Relative Majority vote of attending members
 \end{enumerate}
+Note: Most membership privileges do not initiate until successful completion of the intro process.
+This means that until the member has passed the Intro Eval, the member does not have the right to vote on CSH issues and does not count towards quorum.
+The member does, however, have the right to use CSH's facilities.
+The member is not required to pay dues during the Intro process.
+\\* \\*
+Additional Note: No hazing shall occur at any time during the Selection Process in accordance with the New York State Hazing Laws.
+
+% Incoming RIT students is defined as students who have attended RIT for less than 1 full semester
 \asubsubsubsection{Selection Process for Incoming RIT Students}
 \begin{enumerate}
-	\item During Spring semester, the Evaluations Director selects a group of Active Members to form a Selections Committee.
-		The Selections Committee reviews applications and conducts interviews in accordance with the process prescribed by Residence Life.
-        \item A subset of applicants will be offered Introductory Membership and must participate in the Introductory Process defined in \ref{The Introductory Process}. 
-            A subset of Introductory Members will be offered On-Floor status and will be able to select a room on floor. 
-            The other Introductory Members will have Off-Floor status, but will otherwise have the same privileges and responsibilities.
+	\item During Spring semester, the Evals Director selects a group of Active Members to form a Selections Committee.
+	      The Selections Committee reviews applications and conducts interviews in accordance with the process prescribed by ResLife.
+	\item A subset of applicants will be offered Intro Membership and are given the opportunity to participate in the Intro process defined in \ref{The Intro Process}.
+	      A subset of Intro Members will be offered On-Floor status and will be able to select a room on floor.
+	      The other Intro Members will have Off-Floor status, but will otherwise have the same privileges and responsibilities.
 \end{enumerate}
+Note: Most membership privileges do not initiate until successful completion of the intro process.
+This means that until the member has passed the Intro Eval, the member does not have the right to vote on CSH issues and does not count towards quorum.
+The member does, however, have the right to use CSH's facilities.
+The member is not required to pay dues during the Intro process.
+\\* \\*
+Additional Note: No hazing shall occur at any time during the Selection Process in accordance with the New York State Hazing Laws.
 
-\asubsection{Introductory Membership Expectations}
-Intro members are expected to meet all the requirements of the Intro Process, as described in \ref{Expectations of an Introductory Member}.
+\asubsection{Intro Membership Expectations}
+Intro members are expected to meet all the requirements of the Intro Process, as described in \ref{Expectations of an Intro Member}.
 
-\asubsection{Introductory Membership Privileges}
-Intro members receive the right to use Computer Science House facilities, to attend House functions, and to have housing priority over all persons who are not Computer Science House members.
+\asubsection{Intro Membership Privileges}
+Intro members receive the right to use CSH facilities, to attend CSH functions, and to have housing priority over all persons who are not CSH members.
 
-\asubsection{Introductory Membership Evaluations}
-\asubsection{The Introductory Process}
-The Introductory Process is designed to provide an easy means for Introductory Members to meet existing House members, learn House history, demonstrate their involvement potential to House, and allow existing House members to evaluate them for Active Membership.
-\asubsection{The Evaluation Period}
-The Process will occur either once or twice per semester, and will last for six (6) weeks.
-The Process shall be initiated by the Evaluations Director during either the first and second week of each semester.
-The Executive Board may hold a closed ballot Simple Majority vote to extend the Introductory Process or the Introductory Packet.
-If an Introductory Process is extended, the Introductory Evaluation shall occur at the termination of the extended Process, which may be outside of the period defined in \ref{Introductory Evaluation}.
-If deemed necessary by the Evaluations Director, or by an Executive Board simple majority vote, the second intro process must begin within nine (9) days of the first process ending.
-If a second Introductory Process is approved, the Evaluations Director may initiate a new Introductory Packet within the first or second week of the Introductory Process.
-\asubsection{The Introductory Packet}
-Each Introductory Process participant, after the first week, is given two (2) weeks to obtain signatures from all Active Members who have passed a Membership Evaluation, all On-Floor Introductory Members, and ten (10) of any combination of the following:
+% do this better
+\asubsection{Intro Membership Evals}
+%\asubsection{The Introductory Process}
+The Intro Process is designed to provide an easy means for Intro Members to meet existing CSH members, learn CSH history, and allow current CSH members to evaluate them for Active Membership.
+
+% fix numbers to be only text
+\asubsubsection{The Eval Period}
+The Intro process will occur either once or twice per semester, and will last for six weeks.
+The Intro process shall be initiated by the Evals Director during either the first or second week of each semester.
+E-Board may hold a closed ballot E-Board vote to extend the Intro Process or the Intro Packet.
+If an Intro Process is extended, the Intro Eval shall occur at the termination of the extended process, which may be outside of the period defined in \ref{Intro Eval}.
+If deemed necessary by the Evals Director, or by an E-Board vote, the second intro process must begin within nine days of the first process ending.
+If a second Intro process is approved, the Evals Director may initiate a new Intro Packet within the first or second week of the process.
+
+\asubsubsection{The Intro Packet}
+Each Intro Process participant, after the first week, is given two weeks to obtain signatures from all Active Members who have passed a Membership Eval, all On-Floor Intro Members, and ten of any combination of Alumni, Honorary, and Advisory members.
+At the discretion of the Evals Director, any Intro Packet may be extended to accommodate extenuating circumstances.
+
+\asubsubsection{Expectations of an Intro Member}
+Before the end of the Intro Process, an Intro Member is expected to:
 \begin{itemize}
-	\item Alumni members
-	\item Honorary members
-	\item Advisory members
-\end{itemize}
-At the discretion of the Evaluations Director, any Introductory Packet may be extended to accommodate extenuating circumstances.
-\asubsubsection{Expectations of an Introductory Member}
-Before the end of the Process, an Introductory Member is expected to:
-\begin{itemize}
-\item Attend all House meetings during the process
-\item Complete the Introductory Packet
-\item Attend at least one House directorship meeting for each week of the process (including permanent and Ad Hoc directorship meetings)
-\item Attend at least one House social event during the process
-\item Attend at least two seminars relating to computing or electronics
-\item Sign a copy of the Membership Agreement describing a House Member’s responsibilities and expectations
+	\item Attend all house meetings during the intro process
+	\item Complete the Intro Packet
+	\item Attend at least one directorship meeting for each week of the process (including permanent and Ad Hoc directorship meetings)
+	\item Attend at least one CSH social event during the process
+	\item Attend at least two technical seminars
+	\item Sign a copy of the Membership Agreement
 \end{itemize}
 
-\asubsubsection{Introductory Evaluation}
-The Introductory Evaluation is the process by which House chooses which Introductory Members to extend an offer of Active Membership.
-It occurs at the conclusion of the final week of the Process.
+\asubsubsection{Intro Eval}
+The Intro Eval is the process by which memers choose which Intro Members to extend an offer of Active Membership.
+It occurs at the end of the final week of the Intro process.
 
 \asubsubsubsection{Voting}
-On a member by member basis, this evaluation process determines if each Introductory member has successfully completed the Introductory Process requirements \ref{Expectations of an Introductory Member}.
-A Simple Majority vote with a quorum of two-thirds of the Total Number of Possible Votes is required for the evaluation to be valid.
+On a member by member basis, this evaluation process determines if each Intro member has successfully completed the Intro Process requirements \ref{Expectations of an Intro Member}.
+A Relative Majority vote with a quorum of two-thirds of the Total Number of Possible Votes is required for the eval to be valid.
 In order for an Active Member to be counted as a Possible Vote they must meet the requirements outlined in \ref{Expectations of Voting Members}.
 Neither absentee nor proxy votes are allowed.
-House may choose any of the Outcomes for each member.
+CSH may choose any of the Outcomes for each member.
 
 \asubsubsubsection{Outcomes}
 \renewcommand{\theenumi}{\alph{enumi}} % For this section, we want items to use letters
 \begin{enumerate}
-	\item Introductory Members may be offered Active Membership (\ref{Active Membership}) provided they meet the requirements described in \ref{Expectations of an Introductory Member}, at the discretion of House.
-	\item If an Introductory Member fails to meet the requirements, their membership will be revoked.
-	\item An Introductory member may be given a conditional to complete as a means of making up for missing requirements.
-		A conditional may be proposed by any member present at the Introductory Evaluation and, if it is approved by the Evaluations Director, is then voted on by House.
-		Each conditional consists of a set of additional requirements and a deadline for completing them.
-		When the deadline expires, the conditional will be brought before the Executive Board who will assess its completeness.
-		A conditional member who does not meet these additional requirements forfeits membership.
+	\item Intro Members may be offered Active Membership (\ref{Active Membership}) provided they meet the requirements described in \ref{Expectations of an Intro Member}, at the discretion of CSH.
+	\item If an Intro Member fails to meet the requirements, their membership will be revoked.
+	\item An Intro member may be given a conditional to complete as a means of making up for missing requirements.
+	      A conditional may be proposed by any member present at the Intro Eval and, if it is approved by the Evals Director, is then voted on by CSH.
+	      Each conditional consists of a set of additional requirements and a deadline for completing them.
+	      When the deadline expires, the conditional will be brought before E-Board who will assess its completeness.
+	      A conditional member who does not meet these additional requirements forfeits membership.
 \end{enumerate}
 
-\asubsection{Introductory Membership Leave of Absence}
+\asubsection{Intro Membership Leave of Absence}
 After completion of the Intro Packet, an Intro member may request a leave of absence through the process described in \ref{Leave of Absence}.
 
-\asubsection{Introductory Membership Resignations}
+\asubsection{Intro Membership Resignations}
 Intro members may resign by submitting the request for termination of membership to the Chair or Evals Director in writing before the completion of the intro process.
-\asubsection{Introductory Membership Term}
+\asubsection{Intro Membership Term}
 Intro membership shall last until the end of the Intro Process, at which time active membership is granted or membership is revoked.
 
 \asection{Active Membership}
 
 \asubsection{Active Membership Qualifications}
-Active Membership is open to all students currently enrolled at RIT who have passed the Intro Evals and their most recent Membership Evals.
+Active Membership is open to all students currently enrolled at RIT who have passed the Intro Evals and their most recent Membership Eval.
 
 \asubsection{Active Membership Selection}
 
-Alumni Members in good standing may self-select into Active Membership by paying dues to the Financial Director and notifying the Evaluations Director. They will retain their previous Housing Status if applicable.
+Alumni Members in good standing may self-select into Active Membership by paying dues to the Financial Director and notifying the Evals Director. They will retain their previous Housing Status if applicable.
 \\*\\*
-Any Alumni Member in bad standing (\ref{Alumni Membership Selection}) may become an Active Member by notifying the Evaluations Director of their intent to participate.
-The Evals Director will then bring them up for an Immediate Relative Majority vote with fifty percent Quorum at the next House meeting.
-
+Any Alumni Member in bad standing (\ref{Alumni Membership Selection}) may become an Active Member by notifying the Evals Director of their intent to participate.
+The Evals Director will then bring them up for an Immediate Relative Majority vote with fifty percent quorum at the next house meeting.
 If the vote passes the Alumni is reinstated as an Active Member with Off-Floor status effective immediately.
 
 \asubsection{Active Membership Expectations}
-Active members are expected to be active participants in the House as defined in \ref{Expectations of House Members}.
+Active members are expected to be active participants in the CSH as defined in \ref{Expectations of House Members}.
 Active voting members are expected to meet the requirements defined in \ref{Expectations of Voting Members}.
 
 \asubsubsection{Expectations of House Members}
-Active members are required to pay House dues as stated in \ref{Collection of House Dues}, attend all House Meetings and Executive Board candidate speeches, and attend at least fifteen (15) of the House directorship meetings (including permanent and Ad Hoc directorship meetings) for each Academic Semester in which they are an Active Member.
+Active members are required to pay dues as stated in \ref{Collection of Dues}, attend all house meetings and E-Board candidate speeches, and attend at least fifteen of the directorship meetings (including permanent and Ad Hoc directorship meetings) for each academic semester in which they are an Active Member.
 \\* \\*
-Active members must participate significantly in at least one major project during the academic year.
-Members are required to submit a description for this major project to the Executive Board for approval.
-As an option to this requirement, members may instead assist on a large number of House activities and projects.
+Active members must participate in at least one major project during the academic year.
+Members are required to submit a description for this major project to E-Board for approval.
+As an option to this requirement, members may instead assist on a large number of CSH activities and projects.
 However, it is to be understood in advance by the member that this option requires a great deal of participation throughout the year.
-This participation will be evaluated by the Executive Board.
+This participation will be evaluated by E-Board.
 
 \asubsection{Active Membership Privileges}
 Active Members receive the privilege to:
 \begin{itemize}
-	\item Vote on all issues brought before the House
-	\item Reside on the House
-	\item Hold an E-Board office on the House
-	\item Use Computer Science House facilities
-	\item Attend Computer Science House functions
-	\item Receive priority for available housing on the House when returning from cooperative education
-	\item Guaranteed housing in compliance with ResLife policies regarding Special Interest Houses and the Housing Selection Process (if they have On-Floor status)
+	\item Vote on CSH issues
+	\item Live on-floor
+	\item Hold a position on E-Board
+	\item Use CSH facilities
+	\item Attend CSH functions
+	\item Receive priority for available housing on floor when returning from co-op
+	%\item Guaranteed housing in compliance with ResLife policies regarding Special Interest Houses and the Housing Selection Process (if they have On-Floor status)
 \end{itemize}
 
 \asubsubsection{Expectations of Voting Members}
-The following requirements must be met by the beginning of the Introductory Evaluation for an Active Member to be allowed to vote. 
-Any of these requirements may be waived by the Evaluations Director or a simple majority vote by the Executive Board
+The following requirements must be met by the beginning of the Intro Eval for an Active Member to be allowed to vote.
+Any of these requirements may be waived by the Evals Director or an E-Board vote
 \begin{itemize}
-\item Attend all House meetings during the process
-\item Attend at least one House directorship meeting for each week of the process (including permanent and Ad Hoc directorship meetings)
-\item Attend at least one House social event during the process
-\item Attend at least two seminars relating to computing or electronics
+	\item Attend all house meetings during the process
+	\item Attend at least one directorship meeting for each week of the process (including permanent and Ad Hoc directorship meetings)
+	\item Attend at least one CSH social event during the process
+	\item Attend at least two technical seminars
 \end{itemize}
 \asubsection{Active Membership Evaluations}
-Active Members are evaluated annually through the Evaluation Process as described in \ref{Evaluations Processes}.
+Active Members are evaluated annually through the Eval Process as described in \ref{Evals Processes}.
 
 % ACTIVE MEMBERSHIP EVALUATIONS
 
-\asubsubsection{Evaluations Processes}
-During the academic year, a House member is evaluated by the Membership Evaluation.
-The Membership Evaluation is responsible for determining those individuals who will have the option to continue Active Membership in the following year.
-Semi-Annual Evaluations Meetings are open only to current Active Members.
-All Executive Board members are expected to attend the Semi-Annual Evaluations Meetings to assist in the evaluations of House members.
+\asubsubsection{Evals Processes}
+During the academic year, a CSH member is evaluated by the Membership Eval.
+The Membership Eval is responsible for determining those individuals who will have the option to continue Active Membership in the following year.
+These meetings are open only to current Active Members.
+All E-Board members are expected to attend the these Evals Meetings to assist in the evaluations of CSH members.
 \\* \\*
-At the beginning of any Evaluation Process listed herein, the Evaluations Director must read the sections of the Computer Science House Constitution used during the respective Evaluation Process.
-It is incumbent upon each House member to provide the Evaluation Director with whatever information they feel is necessary to ensure an accurate evaluation.
-\asubsubsubsection{Membership Evaluation}
-The Membership Evaluation process occurs once per academic year.
-It is performed as part of the Evaluation Process that takes place during the spring semester to comply with RIT Housing deadlines.
+At the beginning of any Eval Process listed herein, the Evals Director must read the sections of the CSH Constitution used during the respective Eval Process.
+It is incumbent upon each member to provide the Evals Director with whatever information they feel is necessary to ensure an accurate eval.
+\asubsubsubsection{Membership Eval}
+The Membership Eval occurs once per academic year.
+It is performed as part of the Eval Process that takes place during the spring semester to comply with RIT Housing deadlines.
 \asubsubsubsubsection{Voting}
-Any Active Member who has completed all of the requirements as defined in \ref{Expectations of House Members} at the beginning of the Membership Evaluation passes their Membership Evaluation without being voted on or evaluated by the quorum.
-All Active Members who have not recieved an exemption from the Executive Board prior to the Membership Evaluation will be evaluated on a Member by Member basis by a quorum of Active Members.
-The Membership Evaluation shall hold members to the objective requirements defined in \ref{Expectations of House Members} and determine which members may continue as an Active Member in the following Standard Operating Session.
-Exceptions to the requirements may be made, as House may choose any of the Outcomes for each Member, even if the Member being evaluated has not completed all of their requirements.
-These requirements must be completed before the Membership Evaluation occurs.
-A Secret Immediate Simple Majority vote with a Quorum of two-thirds of the Total Number of Possible Votes is required for the evaluation to be valid.
+Any Active Member who has completed all of the requirements as defined in \ref{Expectations of House Members} at the beginning of the Membership Eval passes their Membership Eval without being voted on or evaluated by the quorum.
+All Active Members who have not recieved an exemption from E-Board prior to the Membership Eval will be evaluated on a member by member basis by a quorum of Active Members.
+The Membership Eval shall hold members to the objective requirements defined in \ref{Expectations of House Members} and determine which members may continue as an Active Member in the following academic year.
+Exceptions to the requirements may be made, as attending members may choose any of the outcomes for each member, even if the member being evaluated has not completed all of their requirements.
+These requirements must be completed before the Membership Eval occurs.
+A Secret Immediate Relative Majority vote with a quorum of two-thirds of the Total Number of Possible Votes is required for the eval to be valid.
 Neither absentee nor proxy votes are allowed.
 
-
 \asubsubsubsubsection{Outcomes}
-Members who pass Membership Evaluation have the option to participate as an Active Member in the following year and remain on the upcoming roster if applicable.
+Members who pass the Membership Eval have the option to participate as an Active Member in the following year and remain on the upcoming roster if applicable.
 \\* \\*
-If a member fails and has never passed a Membership Evaluation in the past, their membership will be revoked immediately.
-If the member has previously passed a Membership Evaluation they will move to Alumni Membership status at the end of the Standard Operating Session (\ref{Alumni Membership Selection}).
+If a member fails and has never passed a Membership Eval in the past, their membership will be revoked immediately.
+If the member has previously passed a Membership Eval they will move to Alumni Membership status at the end of the Standard Operating Session (\ref{Alumni Membership Selection}).
 In either case, the member forfeits their ability to be included on the following year’s roster.
 \\* \\*
 A member may be given a conditional to complete as a means of making up for missing requirements.
-A conditional may be proposed by any member present at the Evaluation.
-If the conditional is approved by the Evaluations Director, it is then voted on by House.
+A conditional may be proposed by any member present at the Eval.
+If the conditional is approved by the Evals Director, it is then voted on by attending members.
 Each conditional consists of a set of additional requirements a deadline for completing them.
-Members who are given a conditional have their evaluation decision deferred, and therefore maintain their current membership status until the conditional is resolved.
-When the deadline expires, the conditional will be brought before the Executive Board who will assess its completeness.
-A conditional member who does not meet these additional requirements will have failed the evaluation.
+When the deadline expires, the conditional will be brought before E-Board, who will assess its completeness.
+A conditional member who does not meet these additional requirements will have failed the eval.
 \asubsubsubsection{Appeals Process}
-If a member disagrees with the outcome of any evaluation, (e.g. is not asked to return to the House for the following year) and wishes to appeal the decision, they may do so as stated in \ref{Appeals}.
+If a member disagrees with the outcome of any eval, (e.g. is not asked to return to CSH for the following year) and wishes to appeal the decision, they may do so as stated in \ref{Appeals}.
 \\* \\*
-If the member is still unsatisfied after being heard by the Executive Board, the appeal may be brought to the attention of the ResLife Advisor.
+If the member is still unsatisfied after being heard by E-Board, the appeal may be brought to the attention of the ResLife Advisor.
 
 \asubsection{Active Membership Leave of Absence}
 An Active member may at any time request a leave of absence using the process described in \ref{Leave of Absence}.
@@ -340,13 +376,13 @@ For the duration of an absence, a member:
 \begin{itemize}
 	\item Forfeits their right to vote
 	\item Does not count towards quorum
-	\item Will not be required to attend House Meeting
+	\item Will not be required to attend house meeting
 \end{itemize}
 
 \asubsection{Active Membership Resignations}
 An Active member may resign by submitting, in writing, the reason for resignation to the Chair or Evals Director.
 Instead of forfeiting membership, Active members who resign may elect to become Alumni defined in \ref{Alumni Membership Selection}.
-The resignation will take effect immediately and an announcement will be made at the following House Meeting.
+The resignation will take effect immediately and an announcement will be made at the following house meeting.
 
 \asubsection{Active Membership Term}
 Active Membership shall last until the member resigns or changes membership status.
@@ -354,26 +390,26 @@ Active Membership shall last until the member resigns or changes membership stat
 \asection{Alumni Membership}
 
 \asubsection{Alumni Membership Qualifications}
-Alumni Membership is open to all former Active members of Computer Science House who passed at least one Membership Evals and departed for reasons other than revocation of House Membership.
+Alumni Membership is open to all former Active members who passed at least one Membership Eval and departed for reasons other than revocation of CSH Membership.
 
 \asubsection{Alumni Membership Selection}
-Active members who depart house (i.e. resign) after passing the current operating session's Membership Evals are considered to be Alumni in good standing.
+Active members who depart house (i.e. resign) after passing the current operating session's Membership Eval are considered to be Alumni in good standing.
 \\*\\*
-Active members who depart house without passing the current operating session's Membership Evals are considered to be Alumni in bad standing.
+Active members who depart house without passing the current operating session's Membership Eval are considered to be Alumni in bad standing.
 This may be appealed to E-Board in order to pursue a different outcome.
 
 \asubsection{Alumni Membership Expectations}
 There are no expectations associated with the Alumni Membership status.
 
 \asubsection{Alumni Membership Privileges}
-Alumni Members shall receive the right to:
+Alumni Members shall receive the privelege to:
 \begin{itemize}
-	\item Use Computer Science House facilities
-	\item Attend Computer Science House functions
+	\item Use CSH facilities
+	\item Attend CSH functions
 \end{itemize}
 
-\asubsection{Alumni Membership Evaluations}
-Alumni Members are not subject to any evaluation.
+\asubsection{Alumni Membership Evals}
+Alumni Members are not subject to any evals.
 
 \asubsection{Alumni Membership Resignations}
 There are no resignations associated with Alumni Membership status.
@@ -383,55 +419,54 @@ Alumni Membership shall last indefinitely or until the member chooses to pursue 
 
 \asection{Honorary and Advisory Memberships}
 \asubsection{Honorary Membership Qualifications}
-Honorary Membership is open to a person whom the House feels has contributed great personal effort to the House and is deserving of House recognition.
+Honorary Membership is open to a person whom CSH feels has contributed great personal effort to CSH and is deserving of CSH recognition.
 \asubsection{Advisory Membership Qualifications}
-Advisory Membership is open to all members of the Rochester Institute of Technology professional, academic, or administrative staff.
+Advisory Membership is open to all members of the RIT professional, academic, or administrative staff.
 \asubsection{Honorary and Advisory Membership Selection}
 \begin{enumerate}
-	\item A House Member submits to the Evals Director a nomination, in writing, for a person they feel is deserving of Honorary or Advisory Membership. The nomination must specify the type of membership the nominee is nominated for.
+	\item A CSH Member submits a nomination to the Evals director, in writing, for a person they feel is deserving of Honorary or Advisory Membership. The nomination must specify the type of membership the nominee is nominated for.
 	\item The Evals Director performs preliminary research on the candidate and presents the findings.
-	\item E-Board decides whether or not to present the nomination to the House for a secret ballot House vote.
-		If E-Board decides not to present the nomination to the House, the Selection Process ends and the candidate does not become a Member.
+	\item E-Board decides whether or not to present the nomination to CSH for a secret ballot Relative Majority vote.
+	      If E-Board decides not to present the nomination to CSH, the selection process ends and the candidate does not become a member.
 
-	\item The nomination is presented at a House Meeting for discussion and a Two-Thirds vote, as defined in \ref{Two-Thirds}.
-		Ballots are distributed and voting must remain open for a minimum of forty-eight hour period.
+	\item The nomination is presented at a house meeting for discussion and a Two-Thirds vote
+	      Ballots are distributed and voting must remain open for a minimum of forty-eight hour period.
 	\item Candidates selected for Honorary Membership are notified of their selection as an Honorary Member and presented with the honor.
-    \item Candidates selected for Advisory Membership are notified of their acceptance as House Advisors and asked to accept or decline
-        the selection.
+	\item Candidates selected for Advisory Membership are notified of their acceptance as CSH Advisors and asked to accept or decline
+	      the selection.
 \end{enumerate}
 \asubsection{Honorary Membership Expectations}
-Honorary Members are encouraged to remain in contact with the House.
+Honorary Members are encouraged to remain in contact with CSH.
 \asubsection{Advisory Membership Expectations}
-Advisors are encouraged to offer advice and assistance to the House in any capacity the Advisor is able to help.
-Advisors are also encouraged to meet House members and occasionally attend House activities.
+Advisors are encouraged to offer advice and assistance to CSH in any capacity the Advisor is able to help.
+Advisors are also encouraged to meet CSH members and occasionally attend CSH activities.
 \asubsection{Honorary and Advisory Membership Privileges}
-Honorary and Advisory Members may advise in all issues brought before the House, use Computer Science House facilities, and attend Computer Science House functions.
+Honorary and Advisory Members may advise in CSH issues, use CSH facilities, and attend CSH functions.
 \asubsection{Honorary and Advisory Membership Evaluations}
-Honorary and Advisory Members are not subject to formal evaluations.
+Honorary and Advisory Members are not subject to formal evals.
 \asubsection{Honorary and Advisory Membership Resignations}
-
 An Honorary or Advisory Member may resign by submitting in writing the reason for resignation to the Chair.
-The resignation will be read at the following House Meeting and become effective at that time.
+The resignation will be read at the following house meeting and become effective at that time.
 \asubsection{Honorary and Advisory Membership Term}
 Honorary and Advisory Memberships shall last until the member resigns.
 
 \asection{Leave of Absence}
-A Leave of Absence offers the option for members to take extended time away from their responsibilities to House for any number of personal issues including, but not limited to, physical illness, mental illness, or care giving for a sick family member. 
-In order to request a Leave of Absence, a member must follow the RIT policy for Leave of Absence, located at \url{https://www.rit.edu/policies/d021}. Additionally, the member should notify the Evaluations Director of their Leave, at which point they become exempt from all House requirements until they return.
+A Leave of Absence offers the option for members to take extended time away from their responsibilities to CSH for any number of personal issues including, but not limited to, physical illness, mental illness, or care giving for a sick family member.
+In order to request a Leave of Absence, a member must follow the RIT policy for Leave of Absence, located at \url{https://www.rit.edu/policies/d021}. Additionally, the member should notify the Evals Director of their Leave, at which point they become exempt from all CSH requirements until they return.
 
 % ARTICLE V - OFFICERS OF THE HOUSE
-\article{Officers of the House}
-\asection{Executive Board}
-The Executive Board is the main governing body of the House.
+\article{CSH Officers}
+\asection{E-Board}
+E-Board is the main governing body of CSH.
 
-Its purpose is to provide leadership and direction for the House, to oversee the day-to-day operations of the House, and to initiate and organize programs and projects for the House.
+Its purpose is to provide leadership and direction for CSH, to oversee the day-to-day operations of CSH, and to initiate and organize programs and projects for CSH.
 \\*\\*
-There is one permanent directorship for each major aspect of the government of the House and each one is chaired by an E-Board member.
+There is one permanent directorship for each major aspect of the government of CSH and each one is chaired by an E-Board member.
 A voting E-Board member is considered to be any person with a non-zero vote on E-Board. % Defined this way so that (for example) each member in a dual directorship is each considered to be a voting member on E-Board.
 Ad Hoc directorships are created on an as-needed basis.
-They are generally very task oriented and are chaired by a House member.
+They are generally very task oriented and are chaired by a CSH member.
 A directorship has some jurisdiction in its area of interest and often is responsible for the day-to-day decisions regarding its area of interest.
-Any large expenditures or large effect decisions must be brought before the entire House.
+Any large expenditures or large effect decisions must be brought before all of House.
 
 \asubsection{Responsibilities}
 
@@ -439,78 +474,76 @@ Any large expenditures or large effect decisions must be brought before the enti
 \asubsubsection{Responsibilities of E-Board}
 
 \begin{enumerate}
-	\item To hold a weekly meeting specific to their responsibilities and submit notes to the House
-	\item To meet, as an E-Board, at least weekly during the Standard Operating Session, as defined in \ref{Standard Operating Session} to discuss and report the operations of the House
-	\item To report pertinent information to House members at the following House Meeting
+	\item To hold a weekly meeting specific to their responsibilities and submit notes to CSH
+	\item To meet, as an E-Board, at least weekly during the Standard Operating Session, as defined in \ref{Standard Operating Session} to discuss and report the operations of CSH
+	\item To report pertinent information to members at the following house meeting
 	\item To maintain records of the goals defined by each previous E-Board
 	\item To act as a Judicial Board as defined in \ref{Judicial}
 	\item To review major projects, as defined in \ref{Expectations of House Members}
-	\item To make the final vote regarding conditionals and appeals as defined in \ref{Membership Evaluation}
-	\item To respect the privacy of House Members confiding in E-Board, barring situations related to sexual assault or endangerment of oneself or others
-	\item To publish a document at the end of each semester to all Members stating House’s accomplishments of that semester
-	\item To review and update the Constitution at the end of each Standard Operating Session, as defined in \ref{Standard Operating Session}.
-		The constitution should remain up to date with current practices.
+	\item To make the final vote regarding conditionals and appeals as defined in \ref{Membership Eval}
+	\item To respect the privacy of members confiding in E-Board, barring situations related to sexual assault or endangerment of oneself or others
+	\item To publish a document at the end of each semester to all members stating CSH's accomplishments of that semester
+	%\item To review and update the Constitution at the end of each Standard Operating Session, as defined in \ref{Standard Operating Session}.
+	      %The constitution should remain up to date with current practices.
 \end{enumerate}
 
 \asubsection{Responsibilities of the Chair}
 \begin{enumerate}
-	\item To preside over E-Board and House Meetings
+	\item To preside over E-Board and house meetings
 	\item To exercise general supervision over the operations of E-Board
-	\item To exercise general supervision over regular House activities
+	\item To exercise general supervision over regular CSH activities
 	\item To act as a liaison to the academic and administrative departments at RIT
-	\item To represent Computer Science House publicly
-	\item To coordinate collaboration between Computer Science House and companies in the industry
 	\item To act as a part of a Judicial Board as defined in \ref{Judicial}
 	\item To cast tie-breaking vote in a split decision in an E-Board vote
 \end{enumerate}
 
-\asubsubsection{Responsibilities of the Evaluations Director}
+\asubsubsection{Responsibilities of the Evals Director}
 \begin{enumerate}
-	\item To preside over Evals Meetings
+	\item To preside over Evals meetings
 	\item To exercise general supervision over Evals operations
-	\item To oversee the screening, interviewing, and acceptance or rejection of prospective House members
+	\item To oversee the screening, interviewing, and acceptance or rejection of prospective members
 	\item To oversee the Membership Evals of Active Members
 	\item To collaborate with the ResLife Advisor to determine room change selection and any changes of membership residency
 	\item To act as a part of a Judicial Board as defined in \ref{Judicial}
-	\item To vote on issues presented to the Executive Board
+	\item To vote on issues presented to E-Board
 \end{enumerate}
 
 \asubsubsection{Responsibilities of the Social Director(s)}
 \begin{enumerate}
-	\item To preside over Social Meetings in which House members are encouraged to bring ideas for social events
+	\item To preside over Social meetings, in which members are encouraged to bring ideas for social events
 	\item To exercise general supervision over Social operations
-	\item To oversee the organization, initiation, and execution of House social activities
-  \item To ensure that there is a variety of events for House members to participate in throughout the academic year
-  \item To vote on issues presented to the Executive Board
+	\item To oversee the organization, initiation, and execution of CSH social activities
+	\item To ensure that there is a variety of events for members to participate in throughout the academic year
+	\item To vote on issues presented to E-Board
 \end{enumerate}
 
 \asubsection{Responsibilities of the PR Director}
 \begin{enumerate}
-	\item To preside over PR Directorship Meetings
-	\item To operate House social media accounts intended to represent House as a whole
-	\item To oversee the organization, initiation, and execution of House philanthropic events
-	\item To preserve and improve the public image of House
+	\item To preside over PR meetings
+	\item To operate CSH social media accounts intended to represent CSH as a whole
+	\item To oversee the organization, initiation, and execution of CSH philanthropic events
+	\item To preserve and improve the public image of CSH
 	\item To collaborate with other E-Board members to organize, initiate, execute, and advertise any events that are intended to be attended by persons whom have never been Active Members
-    \item To oversee the preparation of House for Open Houses, tours, and special events
+	\item To oversee the preparation of CSH for open houses, tours, and special events
 	\item To vote on issues presented to E-Board
 \end{enumerate}
 
 \asubsubsection{Responsibilities of the Financial Director}
 \begin{enumerate}
-	\item To preside over Financial Meetings in which House members are encouraged to bring ideas for fund-raising activities
+	\item To preside over Financial meetings in which members are encouraged to bring ideas for fundraising activities
 	\item To supervise financial administrators and transactions involving house projects
-	\item To maintain financial and inventory records of House capital and assets
-	\item To plan and enforce a House budget
-	\item To oversee House finances and generation of House funds
-	\item To publish a semesterly House financial statement
-	\item To supervise the collection of semesterly House dues
+	\item To maintain financial and inventory records of CSH capital and assets
+	\item To plan and enforce a CSH budget
+	\item To oversee CSH finances and generation of CSH funds
+	\item To publish a semesterly CSH financial statement
+	\item To supervise the collection of semesterly dues
 	\item To oversee the planning and execution of fundraising events
-	\item To vote on issues presented to the Executive Board
+	\item To vote on issues presented to E-Board
 \end{enumerate}
 
 \subsubsection{Responsibilities of the R\&D Director}
 \begin{enumerate}
-	\item To preside over R\&D Meetings in which House members are encouraged to bring ideas for projects
+	\item To preside over R\&D meetings in which House members are encouraged to bring ideas for projects
 	\item To exercise general supervision over R\&D operations
 	\item To oversee the planning, organization and construction of technical projects for the House's benefit
 	\item To strive to fulfill the House's need for technical equipment
@@ -567,12 +600,18 @@ A closed Executive Board meeting may be called at any time by any member of the 
 However, the Chairperson and at least two-thirds of the Voting Members of the Executive Board must be present for the meeting to be called.
 
 \asubsection{Qualifications}
-\asubsubsection{Qualifications to be the Chair, Evals Director, Social Director(s), Financial Director, Research and Development Director(s), House Improvements Director, House History Director, Public Relations Director}
+\asubsubsection{Qualifications to be the Chair, Evals Director}
+\begin{enumerate}
+	\item Candidates must be Active Members during the term of office
+	\item Candidates must reside on floor during the term of office
+	\item Candidates must have at least one full semester of House membership as an Active Member
+	\item Elected or selected candidates may not hold a simultaneous voting Executive Board position, and must therefore resign their current position, or the position of Chairperson, should they be elected
+\end{enumerate}
+\asubsubsection{Qualifications to be the Social Director(s), Financial Director, Research and Development Director(s), House Improvements Director, House History Director, Public Relations Director}
 \begin{enumerate}
 	\item Candidates must be Active Members during the term of office
 	\item Candidates must have at least one full semester of House membership as an Active Member
-	\item Elected or selected candidates may not hold a simultaneous voting Executive Board position, and must therefore resign their current position, or the position of Chairperson, should they be elected
-  \item Candidates for Chairperson or Evals Director must reside on floor during the term of office
+	\item Elected or selected candidates may not hold two simultaneous voting Executive Board positions, and must therefore resign their current position or decline a second position should they be elected or selected to a second voting position
 \end{enumerate}
 \asubsubsection{Qualifications to be the Operational Communications Director}
 \begin{enumerate}
@@ -583,21 +622,21 @@ However, the Chairperson and at least two-thirds of the Voting Members of the Ex
 
 \asubsubsection{Qualifications to be the House Secretary or an Ad Hoc Director}
 \begin{enumerate}
-\item Candidates must be Active Members
+	\item Candidates must be Active Members
 \end{enumerate}
 
 \asubsubsection{Waiving of Qualifications}
 \begin{enumerate}
-  \item House may choose to waive the following subset of the Qualifications for Executive Board positions (defined under \ref{Qualifications}) for all Candidates:
-    \begin{enumerate}
-      \item Candidates must reside on floor during the term of office.
-      \item Candidates must have at least one full semester of House membership as an Active Member.
-      \item Social and Research and Development are the only voting Executive Board positions that allow for Dual Directorship.
-    \end{enumerate}
-  \item When a waiver is proposed, the Chair of the Vote shall state which Executive Board position and Qualification is being voted upon, and any nominated Candidates not qualified under \ref{Qualifications} who would become qualified if the waiver passes.
-  \item A Three-Quarters Immediate Vote with three-quarters Quorum is then taken to determine whether the proposed waiver shall take effect.
-  \item Each vote to waive a Qualification must only apply to a single Qualification for a single Executive Board position.
-  \item Waivers always apply to all Candidates for the Executive Board position.
+	\item House may choose to waive the following subset of the Qualifications for Executive Board positions (defined under \ref{Qualifications}) for all Candidates:
+	      \begin{enumerate}
+		      \item Candidates must reside on floor during the term of office.
+		      \item Candidates must have at least one full semester of House membership as an Active Member.
+		      \item Social and Research and Development are the only voting Executive Board positions that allow for Dual Directorship.
+	      \end{enumerate}
+	\item When a waiver is proposed, the Chair of the Vote shall state which Executive Board position and Qualification is being voted upon, and any nominated Candidates not qualified under \ref{Qualifications} who would become qualified if the waiver passes.
+	\item A Three-Quarters Immediate Vote with three-quarters Quorum is then taken to determine whether the proposed waiver shall take effect.
+	\item Each vote to waive a Qualification must only apply to a single Qualification for a single Executive Board position.
+	\item Waivers always apply to all Candidates for the Executive Board position.
 \end{enumerate}
 
 \asubsection{Selection}
@@ -612,9 +651,9 @@ Non-voting E-Board positions (i.e. Ad Hoc Directors) are not restricted to singl
 The following special cases cover the operation of a dual directorship:
 \begin{itemize}
 	\item If one of the members in a dual directorship resigns the directorship, or for any other reason ends the term of office, the other member in the dual directorship must also step down and the office becomes vacated.
-		The vacated office is then handled like any other vacated office; see \ref{E-Board Resignations}.
+	      The vacated office is then handled like any other vacated office; see \ref{E-Board Resignations}.
 	\item During an official E-Board Vote, each dual directorship member's vote counts for one-half vote in the tallying of votes.
-		The members of the dual directorship need not vote the same way in a vote.
+	      The members of the dual directorship need not vote the same way in a vote.
 	\item A member of a dual directorship may not hold any other Executive Board position.
 	\item When attendance requirements call for the dual directorship position to be present, both directorship members must be present to fulfill the requirements.
 	\item Dual directorships must have both members present for to count towards Quorum in an Executive Board Vote.
@@ -623,24 +662,24 @@ The following special cases cover the operation of a dual directorship:
 \subsubsection{Selection of the Chair, Evals Director, Social Director(s), Financial Director, IMPs Director, History Director,  R\&D Director(s), PR Director}
 \begin{enumerate}
 	\item The opening of the E-Board position(s) is announced at a House meeting and nominations for the position are taken for a minimum of a seventy-two hour period.
-		Any House member may nominate any member or pair of members where appropriate for a Directorship.
+	      Any House member may nominate any member or pair of members where appropriate for a Directorship.
 	\item The candidates will be notified of their nomination.
-		Each candidate is given a minimum of twenty-four hour period to accept or decline the nomination.
-		A list of all nominees who have accepted their nominations will be posted shortly thereafter.
-	\item The date and time of candidate speeches will be announced by a member of E-Board at least five (5) days prior to the event. 
-		All Active Members are expected to attend candidate speeches in accordance with \ref{Expectations of House Members}.
-		If a member cannot attend due to a scheduling conflict, they may provide a reason for their absence to the Evals Director, who will record the reason with the absence.
+	      Each candidate is given a minimum of twenty-four hour period to accept or decline the nomination.
+	      A list of all nominees who have accepted their nominations will be posted shortly thereafter.
+	\item The date and time of candidate speeches will be announced by a member of E-Board at least five (5) days prior to the event.
+	      All Active Members are expected to attend candidate speeches in accordance with \ref{Expectations of House Members}.
+	      If a member cannot attend due to a scheduling conflict, they may provide a reason for their absence to the Evals Director, who will record the reason with the absence.
 	\item Each candidate will be given an equal amount of time before the House to present their platform of candidacy.
 	\item Ballots will then be distributed for a Balloted Vote \ref{Balloted Vote} and voting will be open for a minimum of a forty-eight hour period.
-		The Ballots will list, in random order, all of the candidates who are qualified for a given office with a means to indicate the selection of one of the candidates.
-		In addition, an area will be provided to indicate a write-in selection of a candidate.
+	      The Ballots will list, in random order, all of the candidates who are qualified for a given office with a means to indicate the selection of one of the candidates.
+	      In addition, an area will be provided to indicate a write-in selection of a candidate.
 	\item At the end of the voting period, the Chairperson will terminate voting.
 	\item The winners are determined via the process described in \ref{Ranked Choice}.
-		A fifty-percent Quorum is required for the election to be official.
-		All winners are notified of their election.
-		If the position is currently vacant, the winner immediately assumes office.
-		If not, the winner will assume office at the end of the current term (\ref{Term}).
-		Any office whose winner declines the election, or whose winner does not fulfill the requirements of the elected office, shall have their votes redistributed in the same process as a loser in \ref{Ranked Choice}.
+	      A fifty-percent Quorum is required for the election to be official.
+	      All winners are notified of their election.
+	      If the position is currently vacant, the winner immediately assumes office.
+	      If not, the winner will assume office at the end of the current term (\ref{Term}).
+	      Any office whose winner declines the election, or whose winner does not fulfill the requirements of the elected office, shall have their votes redistributed in the same process as a loser in \ref{Ranked Choice}.
 \end{enumerate}
 
 \asubsection{Selection of the OpComm Director}
@@ -648,15 +687,15 @@ The following special cases cover the operation of a dual directorship:
 	\item A candidate for the OpComm Directorship shall be chosen by the current RTPs.
 	\item The candidate is given a minimum of twenty-four hours to accept or decline the nomination.
 	\item The candidate is presented to the Executive Board for approval.
-		This Executive Board meeting is closed to the Executive Board Members, Root Type Persons, and House members with explicit invitation from the Executive Board.
+	      This Executive Board meeting is closed to the Executive Board Members, Root Type Persons, and House members with explicit invitation from the Executive Board.
 	\item All current Executive Board Voting Members must be present during the discussion and voting period unless that member is a candidate for the position, in which case the member is absent and their vote is abstained.
-		An Executive Board Vote is taken to determine whether the candidate is selected for the position.
+	      An Executive Board Vote is taken to determine whether the candidate is selected for the position.
 \end{enumerate}
 
 \asubsection{Selection of Ad Hoc Directors}
 \begin{enumerate}
 	\item When the Executive Board or a group of House members feels an Ad Hoc Directorship is necessary, they present their plans to the Executive Board.
-  An Executive Board Vote is taken to determine whether directorship status is granted.
+	      An Executive Board Vote is taken to determine whether directorship status is granted.
 	\item When the Ad Hoc Directorship is granted status, a director is appointed, and duties, budgetary, and membership considerations are defined.
 \end{enumerate}
 
@@ -680,29 +719,29 @@ The vote of a vacated E-Board position shall be cast as an abstention in all E-B
 \begin{enumerate}
 	\item Impeachment of any Executive Board Member may be initiated by petition, in writing, consisting of a minimum number of signatures of current House members equaling or exceeding one-third the Number of Possible Votes as defined in \ref{Total Number of Possible Votes}.
 	\item The impeachment petition is then presented at an Executive Board Meeting.
-		The member(s) initiating the petition present their case to the Executive Board.
-		The Executive Board then questions the accused member of the allegations.
+	      The member(s) initiating the petition present their case to the Executive Board.
+	      The Executive Board then questions the accused member of the allegations.
 	\item An Executive Board Vote is taken on the impeachment petition, with all voting members present except the accused member who must be absent and whose vote counts as an abstention, to determine if the allegations stated in the petition are legitimate grounds for impeachment.
-		If the majority of Executive Board votes are negative, the petition and impeachment proceedings are dismissed.
-		This vote may be overridden by an impeachment petition consisting of the grounds for impeachment and a minimum of number of signatures of current House members equaling or exceeding two-thirds the number of all House members currently eligible to vote.
+	      If the majority of Executive Board votes are negative, the petition and impeachment proceedings are dismissed.
+	      This vote may be overridden by an impeachment petition consisting of the grounds for impeachment and a minimum of number of signatures of current House members equaling or exceeding two-thirds the number of all House members currently eligible to vote.
 	\item If the majority of the E-Board votes are positive, or the negative vote was overridden, the petition is presented at the following House Meeting and the accused and accuser(s) again present their cases.
 	\item Ballots will then be distributed and a secret ballot House vote shall be held for a minimum of a forty-eight hour period to determine whether or not the member should be removed from office.
-		Votes shall be collected and counted for a Two-Thirds Balloted Vote described in \ref{Balloted Vote}.
+	      Votes shall be collected and counted for a Two-Thirds Balloted Vote described in \ref{Balloted Vote}.
 	\item A two-thirds Quorum is necessary for the vote to be official.
-		If the resolution passes, the accused officer is relinquished of their position and any benefits thereof and this position is treated like any other vacated position.
-		If a quorum cannot be reached after two attempts, or the percentage of affirmative votes does not equal or exceed the minimum, impeachment proceedings are dismissed.
-		A new selection and interim duty fulfillment procedure is followed similar to that of a resignation; see \ref{Executive Board Resignations}.
+	      If the resolution passes, the accused officer is relinquished of their position and any benefits thereof and this position is treated like any other vacated position.
+	      If a quorum cannot be reached after two attempts, or the percentage of affirmative votes does not equal or exceed the minimum, impeachment proceedings are dismissed.
+	      A new selection and interim duty fulfillment procedure is followed similar to that of a resignation; see \ref{Executive Board Resignations}.
 	\item House Secretary can be impeached according to the above process, or may be dismissed by an Executive Board Vote.
 \end{enumerate}
 
 \asubsection{Term}
 \begin{enumerate}
-\item The Election Process for the following year's E-Board members shall begin in the middle of Spring semester.
-\item The newly selected officers shall begin their terms on June 1 of that year and their terms shall end on May 31 of the following year.
-\item The term of an officer will be abbreviated due to resignation, impeachment, or change in membership status.
-\item Officers elected or selected during the course of the year due to an abbreviated term of the previous officer shall hold office until the end of the normal term.
-\item When the task of an Ad Hoc Directorship has been completed, the directorship dissolves.
-	When an Ad Hoc Director resigns, the directorship dissolves and must be reinstated with a new director.
+	\item The Election Process for the following year's E-Board members shall begin in the middle of Spring semester.
+	\item The newly selected officers shall begin their terms on June 1 of that year and their terms shall end on May 31 of the following year.
+	\item The term of an officer will be abbreviated due to resignation, impeachment, or change in membership status.
+	\item Officers elected or selected during the course of the year due to an abbreviated term of the previous officer shall hold office until the end of the normal term.
+	\item When the task of an Ad Hoc Directorship has been completed, the directorship dissolves.
+	      When an Ad Hoc Director resigns, the directorship dissolves and must be reinstated with a new director.
 \end{enumerate}
 
 \asection{Appeals}
@@ -746,9 +785,9 @@ Membership is composed of all Root Type Persons.
 	\item Nominations are taken from the Root Type Persons and Prior Root Type Persons meeting the selection criteria in \ref{Qualifications of a Root Type Person}.
 	\item Each candidate is given a minimum of twenty-four hour period to accept or decline the nomination.
 	\item A list of all nominees who have accepted is presented to the Executive Board for approval.
-		This Executive Board Meeting is closed to the Executive Board Members, Root Type Persons, and House members with explicit invitation from the Executive Board.
+	      This Executive Board Meeting is closed to the Executive Board Members, Root Type Persons, and House members with explicit invitation from the Executive Board.
 	\item If an Executive Board member is a candidate for the office in discussion, the member is absent and their vote is abstained.
-		A simple majority Executive Board vote, as described in \ref{Simple Majority}, is taken to determine whether the nominations of the Root Type Persons are accepted.
+	      A simple majority Executive Board vote, as described in \ref{Simple Majority}, is taken to determine whether the nominations of the Root Type Persons are accepted.
 \end{enumerate}
 
 \asubsubsection{Qualifications of a Root Type Person}
@@ -756,9 +795,9 @@ Membership is composed of all Root Type Persons.
 \begin{enumerate}
 	\item Candidates must have been an On-Floor Active Member in good standing within the last twelve months, or been an Off-Floor Active Member and have lived on the floor within the last twelve months.
 	\item Candidates may be granted an exemption by current Root Type Persons.
-		Such an exemption may be withdrawn at any time by the current Root Type Persons.
+	      Such an exemption may be withdrawn at any time by the current Root Type Persons.
 	\item Prior Root Type Persons are those members who are no longer current Active Members and have not been granted an extension by the current Root Type Persons.
-		Prior Root Type Persons are not guaranteed access to the current root passwords and other authentication tokens.
+	      Prior Root Type Persons are not guaranteed access to the current root passwords and other authentication tokens.
 	\item The current Root Type Persons may from time to time draft rules and regulations specifying the rights and privileges of Prior Root Type Persons.
 \end{enumerate}
 
@@ -794,42 +833,44 @@ The following process is used for making changes to the Code of Conduct document
 The amount of dues for Active Members will be eighty dollars (\$80.00) per Academic Semester.
 \asubsection{Collection of House Dues}
 The collection period of house dues will be decided in conjunction with The Center for Residence Life and Housing Operations.
-During the dues collection period, dues for both semesters for all Active Members are collected through the member's RIT bill.
-Dues for any Alumni Member in good standing are to be collected when intention to pay is expressed to the Financial Director.
+During the dues collection period, dues for on-floor members (for both semesters) are collected through the member’s RIT bill.
+Dues for off-floor members are to be collected during this period as well by the Financial Director.
+For any member who moves on or off-floor during the year, any difference between dues paid and dues owed should be collected.
+Dues for any alumnus/alumnae in good standing are to be collected when intention to pay is expressed to the Financial Director.
 \asubsubsection{Rules for Giving Exceptions and Exemptions for House Dues}
 If a member is unable to pay dues upon request, they may appeal their situation to the Financial Director.
 If the Financial Director deems their situation appropriate, they may grant specific extensions or reductions of the member's payment as they see fit.
 If the Financial Director deems their situation inappropriate for extension, the member may appeal to the Executive Board.
 If the Executive Board disagrees with the Financial Director, the Executive Board may reduce the required payment or extend the payment deadline.
 If the Executive Board agrees with the Financial director, the member’s payment is considered delinquent and the member’s privileges are revoked until payment can be made.
-In the case the Financial Director or Executive Board decides the situation is appropriate, the member's dues may be partially or fully excused, or the member may be given additional time to pay their dues. 
+In the case the Financial Director or Executive Board decides the situation is appropriate, the member's dues may be partially or fully excused, or the member may be given additional time to pay their dues.
 Additional time and reduction of dues may both be given to a member in an appropriate situation.
 All dues must be collected in full before the annual membership evaluation (\ref{Membership Evaluation}).
 After this date, dues collection is suspended until the start of the next academic year.
 \asubsection{Breakdown of Dues for Directorship Budgets}
 \begin{center}
-\begin{tabular}[c]{|l c|}
-\hline
-Directorship Name & Percentage of Dues \\
-\hline
-\hline
-Operational Communications & 20\% \\
-\hline
-Evaluations & 5\% \\
-\hline
-House History & 10\% \\
-\hline
-House Improvements & 15\% \\
-\hline
-Research and Development & 20\% \\
-\hline
-Social & 20\% \\
-\hline
-Public Relations & 5\% \\
-\hline
-Accumulated & 5\% \\
-\hline
-\end{tabular}
+	\begin{tabular}[c]{|l c|}
+		\hline
+		Directorship Name          & Percentage of Dues \\
+		\hline
+		\hline
+		Operational Communications & 20\%               \\
+		\hline
+		Evaluations                & 5\%                \\
+		\hline
+		House History              & 10\%               \\
+		\hline
+		House Improvements         & 15\%               \\
+		\hline
+		Research and Development   & 20\%               \\
+		\hline
+		Social                     & 20\%               \\
+		\hline
+		Public Relations           & 5\%                \\
+		\hline
+		Accumulated                & 5\%                \\
+		\hline
+	\end{tabular}
 \end{center}
 
 % The suggested total operating budget is $8360.
@@ -1009,7 +1050,7 @@ A vote equaling or exceeding ninety percent of the number of votes cast is requi
 \asection{Anti-Hazing}
 
 \asubsection{RIT Hazing Policy (RIT Student Conduct Process; IV. RIT Code of Conduct; 14. Hazing/Failure to Report
-Hazing)}
+	Hazing)}
 Hazing/Failure to Report Hazing.
 Behavior, regardless of intent, which endangers the emotional, or physical health and safety of a Student for the purpose of membership, affiliation with, or maintaining membership in, a group or Student Organization. Hazing includes any level of participation, such as being in the presence, having awareness of hazing, or failing to report hazing.
 Examples of hazing include, but are not limited to, beating or branding, sleep deprivation or causing excessive fatigue, threats of harm, forcing or coercing consumption of food, water, alcohol or other drugs, or other substances, verbal abuse, embarrassing, humiliating, or degrading acts, or activities that induce, cause or require the Student to perform a duty or task which is not consistent with fraternal law, ritual or policy or involves a violation of local, state or federal laws, or the RIT Code of Conduct.
